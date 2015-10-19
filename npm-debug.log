@@ -1,7 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
 2 info using npm@3.3.6
-3 info using node@v4.1.2
+3 info using node@v4.2.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle expresstest@0.0.0~prestart: expresstest@0.0.0
 6 silly lifecycle expresstest@0.0.0~prestart: no script for prestart, continuing
@@ -26,7 +26,7 @@
 16 verbose cwd /home/martin/nodejs/expresstest
 17 error Linux 4.2.2-1-ARCH
 18 error argv "/usr/bin/node" "/usr/bin/npm" "start"
-19 error node v4.1.2
+19 error node v4.2.0
 20 error npm  v3.3.6
 21 error code ELIFECYCLE
 22 error expresstest@0.0.0 start: `node ./bin/www`

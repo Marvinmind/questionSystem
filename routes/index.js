@@ -1,7 +1,6 @@
 var express = require('express');
 var questionsMod = require('assignUser');
 var router = express.Router();
-var app = require('app');
 
 var monk = require('monk');
 var db = monk('localhost:27017/expresstest');
