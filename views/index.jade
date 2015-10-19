@@ -1,0 +1,14 @@
+
+extends layout
+
+block content
+  -var stuff = ''
+  if loggedIn == false
+    -var stuff = 'not'
+
+  h1= title
+  p Welcome to #{title}
+  p you are #{stuff} logged in!
+  if username
+    p your username is #{username}
+

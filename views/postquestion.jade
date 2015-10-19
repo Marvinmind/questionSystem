@@ -1,0 +1,18 @@
+extends layout
+block content
+  p You can ask a question here
+  form(method="POST")
+    table
+      tr
+        td Topic
+        td 
+          input(type="text", name="topic")
+      tr
+        td Title
+        td 
+          input(type="text", name="title")
+      tr
+        td Text
+        td 
+          input(type="text", name="text")
+    input(type="submit", value="absenden")
